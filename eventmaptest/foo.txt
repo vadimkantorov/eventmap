@@ -1,0 +1,1 @@
+\n'''.format(evenhtml = 't431__evenrow' if even else 't431__oddrow', country = country, city = city, date = date, date0 = date.split()[0], date1 = date.split()[1], orghtml = orghtml, eventhtml = eventhtml, latlon = latlon, eventlink = f'<a class="eventlink" href="#" onclick="return navigate(event);">{date}</a>' if latlon else date)
